@@ -6,7 +6,9 @@
       "Bash(npm install:*)",
       "Bash(npm run lint)",
       "Bash(dir:*)",
-      "Bash(nul)"
+      "Bash(nul)",
+      "Bash(git commit:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
