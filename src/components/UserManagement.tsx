@@ -14,7 +14,6 @@ interface UserWithDetails extends UserProfile {
 }
 
 export function UserManagement() {
-  const { t } = useTranslation()
   const { userProfile, refreshUserProfile } = useAuth()
   const [users, setUsers] = useState<UserWithDetails[]>([])
   const [loading, setLoading] = useState(true)
